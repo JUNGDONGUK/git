@@ -1,0 +1,63 @@
+.main-div > div{
+    width: 25%;
+    height: 13%;
+    padding-left: 7.5px;
+    padding-right: 7.5px;
+    margin-bottom: 40px;
+    float: left;
+    cursor: pointer;
+}
+@media screen and (max-width: 1200px) {
+    .main-div > div{
+        width: 33%;
+        height: 13%;
+        background-color: gray;
+        padding-left: 7.5px;
+        padding-right: 7.5px;
+        margin-bottom: 40px;
+        float: left;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .main-div > div{
+        width: 50%;
+        height: 13%;
+        background-color: gray;
+        padding-left: 7.5px;
+        padding-right: 7.5px;
+        margin-bottom: 40px;
+        float: left;
+    }
+}
+.main-div > div > img{
+    width: 100%;
+    height: 100%;
+}
+.main-div {
+    position: relative;
+}
+.grid-div-video{
+    clear: both;
+}
+.main-div > div > div{
+    padding-top: 15px;
+}
+.main-div > div > div{
+    padding-top: 15px;
+}
+.main-div > div > div > .video-text-icon{
+    width: 11%;
+    height: 100%;
+    float: left;
+}
+.main-div > div > div > .video-text{
+    padding-left: 15%;
+    font-size: 90%;
+    text-overflow:ellipsis;    
+    -webkit-line-clamp:1; /*여기*/
+}
+.main-div > div > div > div > img{
+    width: 100%;
+    border-radius: 50%;
+}
